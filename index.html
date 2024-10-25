@@ -10,11 +10,16 @@
     <link rel="stylesheet" href="css/faboutus.css"> <!-- about us section -->
     <link rel="stylesheet" href="css/fmembers.css"> <!-- members section -->
     <link rel="stylesheet" href="css/fevents.css"> <!-- events section -->
+    <link rel="stylesheet" href="css/footer.css"> <!-- footer section -->
+    <link rel="stylesheet" href="css/fkitabghar.css"> <!-- footer section -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <!-- Link Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -26,7 +31,7 @@
     <nav class="navbar">
         <!-- Left Side Links -->
         <ul class="nav-left">
-            <li><a href="#home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#members">Members</a></li>
         </ul>
@@ -40,7 +45,7 @@
         <ul class="nav-right">
             <li><a href="#events">Events</a></li>
             <li><a href="#kitabghar">Kitabghar</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#footer">Contact Us</a></li>
         </ul>
 
         <!-- Hamburger Menu -->
@@ -54,14 +59,14 @@
     <!-- Dropdown Menu for Mobile -->
     <div class="dropdown-menu">
         <ul class="dropdown-left">
-            <li><a href="#home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#members">Team</a></li>
         </ul>
         <ul class="dropdown-right">
             <li><a href="#events">Events</a></li>
             <li><a href="#kitabghar">Kitabghar</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#footer">Contact Us</a></li>
         </ul>
     </div>
 </header>
@@ -263,6 +268,77 @@
         </div>
     </div>
 </section>
+
+
+
+
+<!-- Kitabghar Section -->
+<section id="kitabghar" class="kitabghar">
+    <div class="kitabghar-content">
+        <div class="kitabghar-image">
+            <img src="images/kitabghar.png" alt="Kitabghar Image">
+        </div>
+        <div class="kitabghar-text">
+            <h1 class="kitabghar-heading">Kitabghar</h1>
+            <p class="kitabghar-description">
+                <strong>Kitabghar</strong> is an initiative by the Sangrachna Club, creating a haven for 
+                bibliophiles within our institution. This cozy library is more than just 
+                a collection; it's a community-driven resource, offering a range of novels 
+                and literary treasures to rent. Kitabghar was built with the goal of 
+                fostering a love for reading, where stories await every curious reader, 
+                and everyone has access to literature that sparks imagination and insight.
+            </p>
+            <button class="kitabghar-button" onclick="window.open('html/kitabghar.html', '_blank')">Borrow a Book</button>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-columns">
+        <div class="footer-column">
+            <h3>Sangrachna</h3>
+            <p><em>"You bring the stories, we bring the platform"</em></p>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-envelope"></i> sangrachna@niet.co.in</li>
+                <li><i class="fas fa-phone"></i> +91-9410816313</li>
+                <li>
+                    <a href="https://www.instagram.com/sangrachna_niet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sangrachna-niet?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BR9Qw2BauQIGbMOdMqtstOA%3D%3D" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Address</h3>
+            <p><em>19, Institutional Area,<br>
+                Knowledge Park II,<br>
+                Greater Noida,<br>
+                Uttar Pradesh, 201306</em></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <hr />
+        <p>&copy; 2024 Sangrachna. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
 
 
 <script src="js/fevents.js"></script>
